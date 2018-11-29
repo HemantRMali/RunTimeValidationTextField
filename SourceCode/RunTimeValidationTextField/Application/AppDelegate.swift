@@ -8,7 +8,7 @@
 
 import UIKit
 import IQKeyboardManagerSwift
-// Test commit
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
