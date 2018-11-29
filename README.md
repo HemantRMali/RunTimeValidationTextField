@@ -55,7 +55,7 @@ Clone the repo install require pods and run the workspace project from the direc
 
 ## Authors
 
-* **Hemant Maii**
+* **Hemant Mali**
 
 ## License
 
