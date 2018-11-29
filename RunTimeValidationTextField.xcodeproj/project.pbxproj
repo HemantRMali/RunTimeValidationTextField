@@ -7,21 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		25DBE2E921AF9ABF0027C93C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DBE2E821AF9ABF0027C93C /* AppDelegate.swift */; };
-		25DBE2EB21AF9ABF0027C93C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DBE2EA21AF9ABF0027C93C /* ViewController.swift */; };
-		25DBE2EE21AF9ABF0027C93C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25DBE2EC21AF9ABF0027C93C /* Main.storyboard */; };
-		25DBE2F021AF9AC10027C93C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25DBE2EF21AF9AC10027C93C /* Assets.xcassets */; };
-		25DBE2F321AF9AC10027C93C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25DBE2F121AF9AC10027C93C /* LaunchScreen.storyboard */; };
+		25DBE30B21AF9AF90027C93C /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DBE2FB21AF9AF90027C93C /* ColorExtension.swift */; };
+		25DBE30C21AF9AF90027C93C /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DBE2FC21AF9AF90027C93C /* StringExtension.swift */; };
+		25DBE30D21AF9AF90027C93C /* TextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DBE2FD21AF9AF90027C93C /* TextFieldExtension.swift */; };
+		25DBE30E21AF9AF90027C93C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25DBE2FF21AF9AF90027C93C /* LaunchScreen.storyboard */; };
+		25DBE30F21AF9AF90027C93C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25DBE30121AF9AF90027C93C /* Main.storyboard */; };
+		25DBE31021AF9AF90027C93C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DBE30421AF9AF90027C93C /* ViewController.swift */; };
+		25DBE31121AF9AF90027C93C /* RTVTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DBE30621AF9AF90027C93C /* RTVTextField.swift */; };
+		25DBE31221AF9AF90027C93C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25DBE30821AF9AF90027C93C /* Assets.xcassets */; };
+		25DBE31321AF9AF90027C93C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DBE30921AF9AF90027C93C /* AppDelegate.swift */; };
+		4FFD275F2E3D41E645F69204 /* Pods_RunTimeValidationTextField.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6D96EE3FD29F71401D4A381 /* Pods_RunTimeValidationTextField.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C99A056938F18D70D71751C /* Pods-RunTimeValidationTextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunTimeValidationTextField.debug.xcconfig"; path = "Target Support Files/Pods-RunTimeValidationTextField/Pods-RunTimeValidationTextField.debug.xcconfig"; sourceTree = "<group>"; };
 		25DBE2E521AF9ABF0027C93C /* RunTimeValidationTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RunTimeValidationTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		25DBE2E821AF9ABF0027C93C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		25DBE2EA21AF9ABF0027C93C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		25DBE2ED21AF9ABF0027C93C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		25DBE2EF21AF9AC10027C93C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		25DBE2F221AF9AC10027C93C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		25DBE2F421AF9AC10027C93C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25DBE2FB21AF9AF90027C93C /* ColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		25DBE2FC21AF9AF90027C93C /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		25DBE2FD21AF9AF90027C93C /* TextFieldExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldExtension.swift; sourceTree = "<group>"; };
+		25DBE30021AF9AF90027C93C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		25DBE30221AF9AF90027C93C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		25DBE30421AF9AF90027C93C /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		25DBE30621AF9AF90027C93C /* RTVTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RTVTextField.swift; sourceTree = "<group>"; };
+		25DBE30821AF9AF90027C93C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		25DBE30921AF9AF90027C93C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		25DBE30A21AF9AF90027C93C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5ED290B49E6FC609E3B7A5C0 /* Pods-RunTimeValidationTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunTimeValidationTextField.release.xcconfig"; path = "Target Support Files/Pods-RunTimeValidationTextField/Pods-RunTimeValidationTextField.release.xcconfig"; sourceTree = "<group>"; };
+		B6D96EE3FD29F71401D4A381 /* Pods_RunTimeValidationTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RunTimeValidationTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FFD275F2E3D41E645F69204 /* Pods_RunTimeValidationTextField.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +53,8 @@
 			children = (
 				25DBE2E721AF9ABF0027C93C /* RunTimeValidationTextField */,
 				25DBE2E621AF9ABF0027C93C /* Products */,
+				46E4AE312CCC3597C068785B /* Pods */,
+				D55CC4A46241C2EDF2380659 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +69,75 @@
 		25DBE2E721AF9ABF0027C93C /* RunTimeValidationTextField */ = {
 			isa = PBXGroup;
 			children = (
-				25DBE2E821AF9ABF0027C93C /* AppDelegate.swift */,
-				25DBE2EA21AF9ABF0027C93C /* ViewController.swift */,
-				25DBE2EC21AF9ABF0027C93C /* Main.storyboard */,
-				25DBE2EF21AF9AC10027C93C /* Assets.xcassets */,
-				25DBE2F121AF9AC10027C93C /* LaunchScreen.storyboard */,
-				25DBE2F421AF9AC10027C93C /* Info.plist */,
+				25DBE30721AF9AF90027C93C /* Application */,
+				25DBE30321AF9AF90027C93C /* Controller */,
+				25DBE2FA21AF9AF90027C93C /* Extension */,
+				25DBE30521AF9AF90027C93C /* RTVTextField */,
+				25DBE2FE21AF9AF90027C93C /* Storyboard */,
 			);
 			path = RunTimeValidationTextField;
+			sourceTree = "<group>";
+		};
+		25DBE2FA21AF9AF90027C93C /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				25DBE2FB21AF9AF90027C93C /* ColorExtension.swift */,
+				25DBE2FC21AF9AF90027C93C /* StringExtension.swift */,
+				25DBE2FD21AF9AF90027C93C /* TextFieldExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		25DBE2FE21AF9AF90027C93C /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				25DBE2FF21AF9AF90027C93C /* LaunchScreen.storyboard */,
+				25DBE30121AF9AF90027C93C /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		25DBE30321AF9AF90027C93C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				25DBE30421AF9AF90027C93C /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		25DBE30521AF9AF90027C93C /* RTVTextField */ = {
+			isa = PBXGroup;
+			children = (
+				25DBE30621AF9AF90027C93C /* RTVTextField.swift */,
+			);
+			path = RTVTextField;
+			sourceTree = "<group>";
+		};
+		25DBE30721AF9AF90027C93C /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				25DBE30821AF9AF90027C93C /* Assets.xcassets */,
+				25DBE30921AF9AF90027C93C /* AppDelegate.swift */,
+				25DBE30A21AF9AF90027C93C /* Info.plist */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		46E4AE312CCC3597C068785B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C99A056938F18D70D71751C /* Pods-RunTimeValidationTextField.debug.xcconfig */,
+				5ED290B49E6FC609E3B7A5C0 /* Pods-RunTimeValidationTextField.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D55CC4A46241C2EDF2380659 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6D96EE3FD29F71401D4A381 /* Pods_RunTimeValidationTextField.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +147,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 25DBE2F721AF9AC10027C93C /* Build configuration list for PBXNativeTarget "RunTimeValidationTextField" */;
 			buildPhases = (
+				06A88E69175435D1FE6A29C5 /* [CP] Check Pods Manifest.lock */,
 				25DBE2E121AF9ABF0027C93C /* Sources */,
 				25DBE2E221AF9ABF0027C93C /* Frameworks */,
 				25DBE2E321AF9ABF0027C93C /* Resources */,
+				81955E99DF74B3D2F85AFF80 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,41 +200,96 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25DBE2F321AF9AC10027C93C /* LaunchScreen.storyboard in Resources */,
-				25DBE2F021AF9AC10027C93C /* Assets.xcassets in Resources */,
-				25DBE2EE21AF9ABF0027C93C /* Main.storyboard in Resources */,
+				25DBE30E21AF9AF90027C93C /* LaunchScreen.storyboard in Resources */,
+				25DBE31221AF9AF90027C93C /* Assets.xcassets in Resources */,
+				25DBE30F21AF9AF90027C93C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06A88E69175435D1FE6A29C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RunTimeValidationTextField-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81955E99DF74B3D2F85AFF80 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RunTimeValidationTextField/Pods-RunTimeValidationTextField-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Cartography/Cartography.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/JVFloatLabeledTextField/JVFloatLabeledTextField.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cartography.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JVFloatLabeledTextField.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RunTimeValidationTextField/Pods-RunTimeValidationTextField-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		25DBE2E121AF9ABF0027C93C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25DBE2EB21AF9ABF0027C93C /* ViewController.swift in Sources */,
-				25DBE2E921AF9ABF0027C93C /* AppDelegate.swift in Sources */,
+				25DBE31321AF9AF90027C93C /* AppDelegate.swift in Sources */,
+				25DBE30D21AF9AF90027C93C /* TextFieldExtension.swift in Sources */,
+				25DBE30C21AF9AF90027C93C /* StringExtension.swift in Sources */,
+				25DBE31021AF9AF90027C93C /* ViewController.swift in Sources */,
+				25DBE30B21AF9AF90027C93C /* ColorExtension.swift in Sources */,
+				25DBE31121AF9AF90027C93C /* RTVTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		25DBE2EC21AF9ABF0027C93C /* Main.storyboard */ = {
+		25DBE2FF21AF9AF90027C93C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				25DBE2ED21AF9ABF0027C93C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		25DBE2F121AF9AC10027C93C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				25DBE2F221AF9AC10027C93C /* Base */,
+				25DBE30021AF9AF90027C93C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		25DBE30121AF9AF90027C93C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25DBE30221AF9AF90027C93C /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -213,7 +346,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -268,7 +401,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -280,35 +413,41 @@
 		};
 		25DBE2F821AF9AC10027C93C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C99A056938F18D70D71751C /* Pods-RunTimeValidationTextField.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = RunTimeValidationTextField/Info.plist;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = C64GAK5X6W;
+				INFOPLIST_FILE = RunTimeValidationTextField/Application/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.credencys.RTVT.RunTimeValidationTextField;
+				PRODUCT_BUNDLE_IDENTIFIER = com.credencys.RTVT;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "STAR Provisioning profile";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		25DBE2F921AF9AC10027C93C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5ED290B49E6FC609E3B7A5C0 /* Pods-RunTimeValidationTextField.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = RunTimeValidationTextField/Info.plist;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = C64GAK5X6W;
+				INFOPLIST_FILE = RunTimeValidationTextField/Application/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.credencys.RTVT.RunTimeValidationTextField;
+				PRODUCT_BUNDLE_IDENTIFIER = com.credencys.RTVT;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "STAR Provisioning profile";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -2,11 +2,12 @@
 //  AppDelegate.swift
 //  RunTimeValidationTextField
 //
-//  Created by Hemant on 11/29/18.
+//  Created by Hemant on 11/28/18.
 //  Copyright © 2018 Hemant. All rights reserved.
 //
 
 import UIKit
+import IQKeyboardManagerSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        IQKeyboardManager.shared.enable = true
+        IQKeyboardManager.shared.shouldShowToolbarPlaceholder = false
         return true
     }
 
